@@ -1,0 +1,14 @@
+CREATE TABLE Cardapio (
+
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	nome TEXT NOT NULL, 
+	descricao TEXT,
+	calorias INTEGER
+);
+
+CREATE TABLE Estudante (
+
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	matricula TEXT NOT NULL,
+	nome TEXT NOT NULL 
+);
